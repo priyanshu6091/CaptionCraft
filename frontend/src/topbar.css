@@ -1,0 +1,52 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logoLink {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin-top: 0px;
+  align-items: center;
+  
+}
+
+/* Authentication Section */
+.navAuth {
+  display: flex;
+  gap: 10px;
+}
+
+.authLink, .logoutButton {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ec0000;
+  border: 1px solid #ec0000;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.authLink:hover, .logoutButton:hover {
+  background-color: #da4747;
+  color: white;
+}
+
+.logoutButton {
+  cursor: pointer;
+}
+
+

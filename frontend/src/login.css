@@ -1,0 +1,108 @@
+/* Container for the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc; /* Light neutral background for a clean look */
+  padding: 20px;
+}
+
+.login-form {
+  background-color: #fff; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 40px;
+  max-width: 400px; /* Restrict max width for a compact look */
+  width: 100%;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Professional font */
+  font-weight: 500;
+}
+
+.login-form form input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd; /* Subtle border for inputs */
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  transition: border 0.3s;
+}
+
+.login-form form input:focus {
+  outline: none;
+  border-color: #0056b3; /* Professional blue for focused input */
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2); /* Subtle shadow effect */
+}
+
+.login-form form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+}
+
+.btn {
+  background-color: #0056b3; /* Professional deep blue */
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  width: 100%; /* Full-width button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #003d82; /* Darker blue on hover */
+}
+
+.login-form a {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.login-form a:hover {
+  color: #003d82; /* Darker blue on hover */
+}
+
+.btnsignup {
+  background-color: #f8f9fa; /* Light background for contrast */
+  color: #0056b3; /* Blue text for consistency */
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #0056b3; /* Subtle border for sign up */
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btnsignup:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.login-form p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
